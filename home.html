@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legal Mate | AI Assistant</title>
+
+  <!-- Google Fonts for Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body>
+    <div class="language-selector" style="color: #00ffd5;">
+        <button class="language-button" id="language-toggle-button"><img src="1234logo.png" width="40px" alt="">
+    
+        </button>
+        <div class="language-dropdown" id="language-dropdown">
+          
+        </div>
+      </div>
+    
+      <header class="header">
+        <h1 class="title">  AI-Powered Legal Assistant<br><br></h1>
+        <p  class="subtitle"> How can I guide you through your legal concerns ?</p>
+        <ul class="suggestion-list">
+          <li class="suggestion">
+            <h4 class="text">What should i do if i'm running late for a court hearing ? </h4>
+            <span class="icon material-symbols-rounded"><i class="fas fa-gavel" style="color: #00ffd5; font-size: 25px;"></i></span>
+            
+          </li>
+          <li class="suggestion">
+            <h4 class="text">What is the process of registering a FIR online ?</h4>
+            <span class="icon material-symbols-rounded"><i class="fas fa-pen" style="color: #00ffd5; font-size: 25px;"></i></span>
+            
+          </li>
+          <li class="suggestion">
+            <h4 class="text">What are the legal requirements for starting a business ?</h4>
+            <span class="icon material-symbols-rounded"><i class="fas fa-lightbulb" style="color: #00ffd5; font-size: 25px;"></i></span>
+            
+          </li>
+          <li class="suggestion">
+            <h4 class="text">What is the procedure of applaying in Visa, Passports etc </h4>
+            <span class="icon material-symbols-rounded"><i class="fas fa-journal-whills" style="color: #00ffd5; font-size: 25px;"></i></span>
+          </li>
+          
+        </ul>
+      </header>
+
+  <div class="chat-list"></div>
+
+  <div class="typing-area">
+    <form action="#" class="typing-form">
+        <div class="input-wrapper">
+            <input type="text" placeholder="Seek legal clarity...." class="typing-input" required />
+            <span id="mic-button"  class="icon material-symbols-rounded">mic</span>
+            <span id="send-message-button" class="icon material-symbols-rounded">send</span>
+          </div>
+          <input type="file" id="image-input" accept="image/*,.pdf,.doc,.docx,.txt" hidden />
+          <span id="image-upload-button" class="icon material-symbols-rounded">upload</span>
+          
+          
+      <div class="action-buttons">
+        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+        <span id="delete-chat-button" class="icon material-symbols-rounded">chat</span>
+      </div>
+    </form>
+    <p class="disclaimer-text">                                </p>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  
+</script>
+</body>
+</html>
+
