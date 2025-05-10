@@ -5,7 +5,25 @@ Empowering citizens with clarity and confidence, Legal Mate is an AI-powered leg
 
 FEATURES:
 
-Accessible legal information at your fingertips
-Seamless translation in 20+ languages 
-Chat-to-speech conversion for effortless understanding
-Document summarization for quick insights
+🔨 Accessible legal information at your fingertips
+🌐 Seamless translation in 20+ languages 
+🎙️ Chat-to-speech conversion for effortless understanding
+📋 Document summarization for quick insights
+
+TECHNOLOGIES USED:
+
+Frontend: HTML, CSS, Javascript
+Backend: Node.js
+API Used: Gemini flash 1.5
+Design: Figma
+
+Useful Tools and Resources :
+
+    • Ms Copilot
+    • CHATGPT
+    • Gemini
+
+Recommended Design Resources :
+    • Code Guide - Standards for developing flexible, durable, and sustainable HTML and CSS.
+    • Font Awesome Icons - To add scalable vector icons and social logos.
+    • GeoPattern - SVG background pattern generator.
